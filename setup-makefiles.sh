@@ -13,8 +13,8 @@ fi
 
 set -e
 
-export DEVICE=pdx215
-export DEVICE_COMMON=sm8350-common
+export DEVICE=pdx223
+export DEVICE_COMMON=sm8450-common
 export VENDOR=sony
 export VENDOR_COMMON=${VENDOR}
 

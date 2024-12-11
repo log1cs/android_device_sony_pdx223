@@ -22,8 +22,8 @@
 # definition file).
 #
 
-# Inherit from sony sm8350-common
-$(call inherit-product, device/sony/sm8350-common/common.mk)
+# Inherit from common device tree
+$(call inherit-product, device/sony/sm8450-common/common.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2560
@@ -39,8 +39,8 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    SonyPDX215SystemUIRes \
-    SonyPDX215FrameworksRes
+    SonyPDX223SystemUIRes \
+    SonyPDX223FrameworksRes
 
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
@@ -56,4 +56,4 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/sony/pdx215/pdx215-vendor.mk)
+$(call inherit-product, vendor/sony/pdx223/pdx223-vendor.mk)
