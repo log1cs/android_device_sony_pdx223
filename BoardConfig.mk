@@ -14,8 +14,8 @@
 # limitations under the License.
 #
 
-# Inherit from common device tree
--include device/sony/sm8450-common/BoardConfigCommon.mk
+# Inherit from common device configurations
+include device/sony/sm8450-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/sony/pdx223
 
@@ -40,4 +40,4 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # inherit from the proprietary version
--include vendor/sony/pdx223/BoardConfigVendor.mk
+include vendor/sony/pdx223/BoardConfigVendor.mk
