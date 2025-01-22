@@ -491,6 +491,10 @@ vendor/lib64/camx.provider@2.5-external.so
 vendor/lib64/camx.provider@2.5-legacy.so
 vendor/lib64/camx.provider@2.6-legacy.so
 vendor/lib64/camx.provider@2.7-legacy.so
+vendor/lib64/vendor.somc.camera.device@3.2-impl.so
+vendor/lib64/vendor.somc.camera.device@3.3-impl.so
+vendor/lib64/vendor.somc.camera.device@3.4-impl.so
+vendor/lib64/vendor.somc.camera.device@3.5-impl.so
 vendor/lib64/libc++_shared.so
 vendor/lib64/libcamera2ndk_vendor.so
 vendor/lib64/libcamerapostproc.so
