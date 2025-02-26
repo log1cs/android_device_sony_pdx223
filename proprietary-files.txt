@@ -497,6 +497,9 @@ vendor/lib64/vendor.somc.camera.device@3.4-impl.so
 vendor/lib64/vendor.somc.camera.device@3.5-impl.so
 vendor/lib64/libc++_shared.so
 vendor/lib64/libcamera2ndk_vendor.so
+vendor/lib64/libcapiv2svacnnvendor.so
+vendor/lib64/libcapiv2svarnnvendor.so
+vendor/lib64/libcapiv2uvvendor.so
 vendor/lib64/libcamerapostproc.so
 vendor/lib64/libcamera_nn_stub.so
 vendor/lib64/libcammw.so
