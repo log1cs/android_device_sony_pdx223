@@ -20,7 +20,7 @@ from extract_utils.main import (
 namespace_imports = [
     'hardware/sony',
     'vendor/qcom/opensource/display',
-    'vendor/sony/sm6375-common',
+    'vendor/sony/sm8450-common',
 ]
 
 lib_fixups: lib_fixups_user_type = {
@@ -37,7 +37,7 @@ blob_fixups: blob_fixups_user_type = {
 }  # fmt: skip
 
 module = ExtractUtilsModule(
-    'pdx225',
+    'pdx223',
     'sony',
     namespace_imports=namespace_imports,
     blob_fixups=blob_fixups,
@@ -46,6 +46,6 @@ module = ExtractUtilsModule(
 
 if __name__ == '__main__':
     utils = ExtractUtils.device_with_common(
-        module, 'sm6375-common', module.vendor
+        module, 'sm8450-common', module.vendor
     )
     utils.run()
