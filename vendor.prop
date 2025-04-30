@@ -3,4 +3,4 @@ bluetooth.device.default_name=Xperia 1 IV
 
 # Fingerprint
 persist.vendor.fingerprint.type=side
-persist.vendor.fingerprint.sensor_location=1080|1051|240|local:4630946521025525377
+persist.vendor.fingerprint.sensor_location=1096|1105|240|local:129
