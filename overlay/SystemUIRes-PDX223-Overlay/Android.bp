@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "FrameworkRes-PDX225-Overlay",
+    name: "SystemUIRes-PDX223-Overlay",
     device_specific: true,
 }

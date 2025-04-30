@@ -1,5 +1,5 @@
 # Bluetooth
-bluetooth.device.default_name=Xperia 10 IV
+bluetooth.device.default_name=Xperia 1 IV
 
 # Fingerprint
 persist.vendor.fingerprint.type=side
