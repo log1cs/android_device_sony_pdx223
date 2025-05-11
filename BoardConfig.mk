@@ -9,7 +9,7 @@ include device/sony/sm8450-common/BoardConfigCommon.mk
 DEVICE_PATH := device/sony/pdx223
 
 # Kernel
-TARGET_KERNEL_CONFIG += pdx223_defconfig
+TARGET_KERNEL_CONFIG += vendor/sony/pdx223.config
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
