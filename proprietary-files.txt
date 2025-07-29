@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from XQ-CT72 (Customized SEA - 64.2.A.2.244).
+## are from XQ-CT72 (Customized SEA - 64.2.A.2.265).
 
 # ACDB
 vendor/etc/acdbdata/waipio_qrd/Sony_acdb_cal.acdb

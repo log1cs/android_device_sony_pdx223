@@ -23,8 +23,8 @@ PRODUCT_MODEL := XQ-CT72
 PRODUCT_GMS_CLIENTID_BASE := android-sonymobile
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="XQ-CT72-user 14 64.2.A.2.244 064002A002024400519766968 release-keys" \
-    BuildFingerprint=Sony/XQ-CT72/XQ-CT72:14/64.2.A.2.244/064002A002024400519766968:user/release-keys \
+    BuildDesc="XQ-CT72-user 14 64.2.A.2.265 064002A002026500519766968 release-keys" \
+    BuildFingerprint=Sony/XQ-CT72/XQ-CT72:14/64.2.A.2.265/064002A002026500519766968:user/release-keys \
     DeviceName=XQ-CT72 \
     DeviceProduct=XQ-CT72 \
     SystemDevice=XQ-CT72 \
