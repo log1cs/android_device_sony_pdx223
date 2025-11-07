@@ -32,9 +32,6 @@
         <item>0.5902579775</item>
     </string-array>
 
-    <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
-    <bool name="config_intrusiveNotificationLed">true</bool>
-
     <!-- Array of hysteresis constraint values for brightening, represented as tenths of a
          percent. The length of this array is assumed to be one greater than
          config_ambientThresholdLevels. The brightening threshold is calculated as
