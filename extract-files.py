@@ -37,6 +37,8 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('android.hardware.light-V1-ndk_platform.so', 'android.hardware.light-V1-ndk.so'),
     'vendor/lib64/libcamximageformatutils.so': blob_fixup()
         .replace_needed('vendor.qti.hardware.display.config-V2-ndk_platform.so', 'vendor.qti.hardware.display.config-V2-ndk.so'),
+    ('vendor/lib64/libsomc_camerahal.so', 'vendor/lib64/libsomc_chokoballpal.so'): blob_fixup()
+        .replace_needed('libui.so', 'libui-v34.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
