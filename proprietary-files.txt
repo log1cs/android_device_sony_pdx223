@@ -502,7 +502,7 @@ vendor/etc/libhdr_somc.xml
 vendor/etc/display/qdcm_calib_data_1.json
 
 # Display configuration
-vendor/etc/displayconfig/display_id_130.xml:vendor/etc/displayconfig/display_id_129.xml
+vendor/etc/displayconfig/display_id_130.xml:vendor/etc/displayconfig/display_port_129.xml
 
 # Sensors configurations
 vendor/etc/sensors/config/waipio_ak991x_0_somc_product.json
