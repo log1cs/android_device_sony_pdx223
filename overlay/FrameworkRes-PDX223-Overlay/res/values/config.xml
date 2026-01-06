@@ -3,7 +3,7 @@
      SPDX-FileCopyrightText: The LineageOS Project
      SPDX-License-Identifier: Apache-2.0
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
     <!-- Indicate whether closing the lid causes the device to go to sleep and opening
          it causes the device to wake up.
          The default is false. -->
@@ -20,6 +20,7 @@
         <item>-0.0005989563</item>
         <item>0.5902579775</item>
     </string-array>
+
     <string-array name="config_nightDisplayColorTemperatureCoefficients">
         <item>0.0000000000</item>
         <item>0.0000000000</item>

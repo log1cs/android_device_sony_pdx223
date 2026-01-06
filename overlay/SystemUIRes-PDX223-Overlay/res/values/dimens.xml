@@ -3,7 +3,7 @@
      SPDX-FileCopyrightText: The LineageOS Project
      SPDX-License-Identifier: Apache-2.0
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
     <!-- Location on the screen of the center of the fingerprint sensor. For devices with under
      display fingerprint sensors, this directly corresponds to the fingerprint sensor's location.
      For devices with sensors on the back of the device, this corresponds to the location on the
