@@ -19,5 +19,5 @@
      display fingerprint sensors, this directly corresponds to the fingerprint sensor's location.
      For devices with sensors on the back of the device, this corresponds to the location on the
      screen directly in front of the sensor. -->
-    <dimen name="physical_fingerprint_sensor_center_screen_location_y">1685px</dimen>
+    <dimen name="physical_fingerprint_sensor_center_screen_location_y">@dimen/physical_power_button_center_screen_location_y</dimen>
 </resources>
