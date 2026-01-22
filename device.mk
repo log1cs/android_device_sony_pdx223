@@ -3,6 +3,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# AAPT
+PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
+
 # NFC
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/nfc/libnfc-nxp-typef.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp-typef.conf
