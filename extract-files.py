@@ -33,6 +33,11 @@ blob_fixups: blob_fixups_user_type = {
      'vendor/lib64/vendor.somc.camera.device@3.4-impl.so', 'vendor/lib64/vendor.somc.camera.device@3.5-impl.so',
      'vendor/bin/hw/vendor.somc.hardware.camera.provider@1.0-service'): blob_fixup()
         .replace_needed('libutils.so', 'libutils-v32.so'),
+    ('vendor/lib64/camx.device@3.4-ext-impl.so', 'vendor/lib64/camx.device@3.5-ext-impl.so', 'vendor/lib64/camx.device@3.6-ext-impl.so',
+     'vendor/lib64/camx.provider@2.4-external.so', 'vendor/lib64/camx.provider@2.4-impl.so', 'vendor/lib64/camx.provider@2.4-legacy.so',
+     'vendor/lib64/camx.provider@2.5-external.so', 'vendor/lib64/camx.provider@2.5-legacy.so', 'vendor/lib64/camx.provider@2.6-legacy.so',
+     'vendor/lib64/camx.provider@2.7-legacy.so'): blob_fixup()
+        .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
     'vendor/lib64/libcammw.so': blob_fixup()
         .replace_needed('android.hardware.light-V1-ndk_platform.so', 'android.hardware.light-V1-ndk.so'),
     'vendor/lib64/libcamximageformatutils.so': blob_fixup()
