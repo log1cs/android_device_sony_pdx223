@@ -17,7 +17,7 @@ PRODUCT_PACKAGES += \
     SystemUIRes-PDX223-Overlay
 
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-custom
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
