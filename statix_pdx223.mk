@@ -11,10 +11,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from pdx223 device
 $(call inherit-product, device/sony/pdx223/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common StatiX stuff.
+$(call inherit-product, vendor/statix/config/common.mk)
+$(call inherit-product, vendor/statix/config/gsm.mk)
 
-PRODUCT_NAME := lineage_pdx223
+PRODUCT_NAME := statix_pdx223
 PRODUCT_DEVICE := pdx223
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_BRAND := Sony
