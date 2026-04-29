@@ -29,6 +29,9 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 blob_fixups: blob_fixups_user_type = {
+    ('odm/etc/customization/XQ-CT72_RU/config.prop', 'odm/etc/customization/XQ-CT72/config.prop', 'odm/etc/customization/XQ-CT62/config.prop',
+     'odm/etc/customization/XQ-CT54_EEA/config.prop', 'odm/etc/customization/XQ-CT54/config.prop', 'odm/etc/customization/XQ-CT44/config.prop'): blob_fixup().
+        regex_replace('vendor', 'odm'),
     ('vendor/lib64/vendor.somc.camera.device@3.2-impl.so', 'vendor/lib64/vendor.somc.camera.device@3.3-impl.so',
      'vendor/lib64/vendor.somc.camera.device@3.4-impl.so', 'vendor/lib64/vendor.somc.camera.device@3.5-impl.so',
      'vendor/bin/hw/vendor.somc.hardware.camera.provider@1.0-service'): blob_fixup()
