@@ -538,3 +538,27 @@ vendor/firmware/tzwvcpybuf.mbn
 # WLAN firmware
 vendor/etc/wifi/bdwlan.e8d;SYMLINK=vendor/firmware/bdwlan.e8d
 vendor/etc/wifi/bdwlang.e8d;SYMLINK=vendor/firmware/bdwlang.e8d
+
+# SKU
+odm/etc/customization/XQ-CT72_RU/config.prop
+odm/etc/customization/XQ-CT72/config.prop
+odm/etc/customization/XQ-CT62/config.prop
+odm/etc/customization/XQ-CT54_EEA/config.prop
+odm/etc/customization/XQ-CT54/config.prop
+odm/etc/customization/XQ-CT44/config.prop
+odm/etc/customization/c999999/config.prop
+odm/etc/customization/c999998/config.prop
+odm/etc/customization/c999997/config.prop
+odm/etc/customization/c999996/config.prop
+odm/etc/customization/c999990/config.prop
+odm/etc/customization/c001884/config.prop
+odm/etc/customization/c001839/config.prop
+odm/etc/customization/c001707/config.prop
+odm/etc/customization/c001678/config.prop
+odm/etc/customization/c001526/config.prop
+odm/etc/customization/c001492/config.prop
+odm/etc/customization/c001435/config.prop
+odm/etc/customization/c000032/config.prop
+odm/etc/customization/c000027/config.prop
+odm/etc/customization/c000018/config.prop
+odm/etc/customization/c000002/config.prop
